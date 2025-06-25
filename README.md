@@ -1,12 +1,51 @@
-# React + Vite
+# 📚 InnovRed Books - Biblioteca Digital Educativa
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-Currently, two official plugins are available:
+**Plataforma interactiva para fomentar la lectura en estudiantes de primaria** con efectos visuales mágicos y experiencia de lectura envolvente.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Características Principales
+- 🎨 **Interfaz con partículas animadas** (fondo dinámico)
+- 📖 **Visor de PDF integrado** con navegación por páginas
+- 🔊 **Efectos de sonido** al cambiar páginas
+- 📱 **Diseño 100% responsive** (funciona en móviles, tablets y desktop)
+- 🌈 **Selección visual de libros** con portadas atractivas
 
-## Expanding the ESLint configuration
+## 🚀 Demo en Vivo
+[![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://innovred-books.vercel.app)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tecnologías Utilizadas
+| Tecnología | Función |
+|------------|---------|
+| Vite       | Build Tool ultra rápido |
+| React      | Biblioteca frontend |
+| Tailwind CSS | Estilos responsive |
+| react-pdf  | Visor de documentos |
+| Howler.js  | Efectos de sonido |
+| tsparticles| Animaciones de fondo |
+
+## 🖥 Capturas de Pantalla
+| Vista de Biblioteca | Vista de Lector |
+|----------------------|------------------|
+| ![Biblioteca](https://via.placeholder.com/400x225/3b82f6/ffffff?text=Selector+de+Libros) | ![Lector](https://via.placeholder.com/400x225/10b981/ffffff?text=Visor+de+PDF) |
+
+## 📦 Instalación Local
+1. Clona el repositorio:
+  
+git clone https://github.com/tu-usuario/innovred-books-vite.git
+npm install
+npm run dev
+
+🤝 Colaboradores
+Ing. Livan Torres - Desarrollo Frontend
+
+Lic. María Córdoba - Diseño Educativo
+
+Lic. Beatriz Perez - Selección de Contenidos
+
+📄 Licencia
+Este proyecto está bajo la licencia MIT.
+
+✨ "Un libro es un regalo que puedes abrir una y otra vez" - Garrison Keillor
