@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import Modal from './Modal';
-
+import { openURL } from '../utils/capacitorUtils';
 const books = [
   {
     id: 1,
@@ -326,7 +326,7 @@ export default function BookSelector({ onBookSelect }) {
                     <h3 className="text-lg font-bold text-white text-center mb-4 line-clamp-2">
                       {mooc.title}
                     </h3>
-                    <a
+                   {/* <a
                       href={mooc.url}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -334,7 +334,14 @@ export default function BookSelector({ onBookSelect }) {
                       onClick={(e) => e.stopPropagation()}
                     >
                       Ir al Curso
-                    </a>
+                    </a>*/}
+
+                      <button
+                      onClick={() => openURL(mooc.url)}
+                      className="mt-auto px-4 py-2 bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white font-bold rounded-lg transition-all shadow-md hover:shadow-purple-500/20 self-stretch"
+                    >
+                      Ir al Curso
+                    </button>
                   </div>
                 </div>
               </div>

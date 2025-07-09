@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Innovred</string>
+    <string name="title_activity_main">Innovred</string>
+    <string name="package_name">com.innovred.books</string>
+    <string name="custom_url_scheme">com.innovred.books</string>
+</resources>
